@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ciewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalsize.min.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+      <header>
+
+<!--        <div class="logo">
+            <img src="images/rock.JPG" alt=""> 
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+           <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a> </li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a> </li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a> </li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a> </li>
+            </ul>
+        </nav>    
+      </header>
+
+      <!--  Introduction -->
+      <section class="intro" id="home">
+          <h1 class="section__title section__title--intro">
+              Bonjour, I am <strong>Amit Kumar</strong>
+          </h1>
+      <p class="section__subtitle section__subtitle--intro">SAP Consultant</p>
+      <img src="Images/AK_main.JPG" alt="" height="250rem" width="400rem" class="intro__img">
+    </section>
+
+      <!--My Skills-->
+      <section class="my-skills", id="skills">
+          <h2 class="section__title section__title--skills">What I do</h2> 
+          <div class="skills">
+              <div class="skill">
+                  <div class="skill skill__divison">
+                  <h3>SAP Consulting</h3>
+                  </div>
+                  <p>Led cross application SAP developments in numerous industries:
+                  <br>Consumer Goods and services
+                  <br>Foods and beverages
+                  <br>Oil and Gas sector
+                  <br>Pharma sector</p>
+                  <p>Primarily working as SAP technical consultant, 
+                  <br>I have lead designing solutions in different modules,
+                  <br>SAP MM, FI, SD, SCM, EWM, PTM, etc.</p>   
+                  <p>12 years of hands on experience with RICEFW development including leading team in client facing role, working
+                     in onshore-offshore model.
+                  </p>  
+                                       
+              </div>    <!--End of skill-->
+
+        <div class="skill">
+                <div class="skill skill__divison">
+                    <h3>EDI / SAP Integration</h3>
+                </div>  
+                <p>Led SAP integration projects with different industry partners:
+                    <br>EDI integration  including all industry standard EDIs:
+                    <br>3PL EDI 940, 943, 944, 945, 846, 856
+                    <br>Customer EDI 850, 810, 880, 875, 855
+                    <br>Vendor EDI 850, 855, 856
+                </p>    
+                <p>
+                    System integration with key "market leaders" in US/CA like,
+                    <br>
+                    <br>Planning system Analplan
+                    <br>Reporting system Cognos
+                    <br>TMS system Blujay
+                </p>
+            </div>  
+
+                <div class="skill">
+                <div class="skill skill__divison">
+                    <h3>Front-end-development</h3>
+                </div>  
+                <p>SAP UI5 based App development. 
+                   <br>Lead development of custom Apps such as,
+                   <br>Idoc monitoring tool
+                   <br>Mass customer load in SAP
+                   <br>Journal Entry upload
+                   <br>Process/Planned order upload
+                   <br><br>Novice in html/CSS/JavaScript as well,
+                   <br>this is a self-designed page you are looking at :)</p>
+            </div>   
+          </div> <!--End of skills-->
+
+          <a href="#work" class="btn">My Work</a>
+      </section>
+
+
+    <!--About me-->
+    <section class="about-me", id="about">
+          <h2 class="section--title section__title--about">Who I am ?</h2>
+          <p class="section__subtitle section__subtitle--about">SAP Consultant based out of New Delhi</p>
+          <div class="about-me__body">
+            <p> Led SAP technical application developments across various projects and firms.
+              <br>   As my chosen career always demands, I need learn and excel at new technologies as needed for my role
+                     like SAP UI5, BRIM, Latest SAP HANA releases, Embedded analytics, CDS Views, exposing SAP Data as a service,
+                     etc.<br>
+              <br>   My experience includes but is not limited to:
+              <br>•	Customer service and support, with client facing experience
+              <br>•	Programming both new applications and maintenance work
+              <br>•	Problem isolation and analysis
+              <br>•	Application and requirement analysis
+              <br>•	Process improvement and documentation</p>
+
+              <p>The key strengths developed from my 12+ years of industry experience, 
+                 but are not limited to, the following:
+              <br>  •	I have successfully designed, developed, and supported live SAP applications.
+              <br>  •	I am a self-starter.
+              <br>  •	Eager to learn new things.
+              <br>  •	Provides insights to latest SAP tech offerings to the team.               
+              </p>
+          </div>
+          <img src="Images/AK5.JPG" alt="" height="600rem" width="400rem" class="about-me__img">
+    </section>
+
+    
+    <!--My work-->
+    <section class="my-work", id="work">
+        <h2 class="section--title section__title--work">My Work</h2>
+        <p class="section--subtitle section__subtitle--work">A selection of my range of work across firms</p>
+        
+
+        <div class="portfolio">
+        <!--portfolio item 01-->
+      <a href="portfolio-item_a.html" class="portfolio__item__text">
+        <DIV class="portfolio__item">
+            <div  class=" portfolio__item portfolio__item__a">                
+                <p><br><b>Deloitte Consulting India Pvt. Ltd.</b>
+                <br> Mar 2014 - present
+                </p>
+            </div>
+        </div>
+    </a>
+
+    <a href="portfolio-item_b.html" class="portfolio__item__text">
+        <DIV class="portfolio__item">
+            <div class=" portfolio__item portfolio__item__b">
+                <p><br><b>Ferra Aerospace Pvt. Ltd.</b>
+                <br> June 2013 - Mar 2014</p>
+            </div>
+        </div>
+    </a>
+        
+    <a href="portfolio-item_c.html" class="portfolio__item__text">
+        <DIV class="portfolio__item">
+            <div class=" portfolio__item portfolio__item__c">
+                <p><br><b>Accenture Service Pvt. Ltd.</b>
+                <br> Aug 2009 - 2013</p>
+            </div>
+        </div>  
+    </a>         
+        </div>
+    </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:amitabapsap@gmail.dev" class="footer__link">amitabapsap@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/crushfear786">
+                    <i class="fab fa-twitter"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/eramit04">
+                    <i class="fab fa-facebook"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/amit-kumar-89b4a34a/">
+                    <i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <div class="footer_right">
+            <p><i class="far fa-copyright"></i>Images may be subjected to copyright</p>
+            </div>
+        </footer>
+  <script src="js/index.js"></script>
+ </body>
+
+</html>
